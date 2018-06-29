@@ -62,7 +62,6 @@ p largest_contiguous_subsum1(list) # => -1 (from [-1])
 #n^2
 
 def largest_contiguous_subsum(list)
-  totals = []
   current = list[0]
   greatest = list[0]
   list[1..-1].each do |el|
